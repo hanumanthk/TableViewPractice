@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C221119A21D60B4B00008DCB /* StudentTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C221119921D60B4B00008DCB /* StudentTableViewCell1.swift */; };
+		C2287A1221D6702D00C8708A /* StudentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2287A1121D6702D00C8708A /* StudentDetailsViewController.swift */; };
 		C25C4F6F21D343E000D375E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C4F6E21D343E000D375E0 /* AppDelegate.swift */; };
 		C25C4F7121D343E000D375E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C4F7021D343E000D375E0 /* ViewController.swift */; };
 		C25C4F7421D343E000D375E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25C4F7221D343E000D375E0 /* Main.storyboard */; };
@@ -14,9 +16,17 @@
 		C25C4F7921D343E600D375E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25C4F7721D343E600D375E0 /* LaunchScreen.storyboard */; };
 		C25C4F8421D343E600D375E0 /* TableViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C4F8321D343E600D375E0 /* TableViewPracticeTests.swift */; };
 		C25C4F8F21D343E600D375E0 /* TableViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C4F8E21D343E600D375E0 /* TableViewPracticeUITests.swift */; };
+		C25C4FA021D34E5500D375E0 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C4F9F21D34E5500D375E0 /* StudentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C221118D21D5FD4C00008DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED2D341AD2D09F00CFC3EB;
+			remoteInfo = "Kingfisher-iOS";
+		};
 		C25C4F8021D343E600D375E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C25C4F6321D343E000D375E0 /* Project object */;
@@ -31,9 +41,73 @@
 			remoteGlobalIDString = C25C4F6A21D343E000D375E0;
 			remoteInfo = TableViewPractice;
 		};
+		C25C4FAB21D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D351AD2D09F00CFC3EB;
+			remoteInfo = "Kingfisher-iOS";
+		};
+		C25C4FAD21D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D13F49D61BEDA67C00CE335D;
+			remoteInfo = "Kingfisher-tvOS";
+		};
+		C25C4FAF21D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B2944481C3D01B20088C3E7;
+			remoteInfo = "Kingfisher-macOS";
+		};
+		C25C4FB121D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D16799EB1C4E74460020FD12;
+			remoteInfo = "Kingfisher-watchOS";
+		};
+		C25C4FB321D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D3F1AD2D09F00CFC3EB;
+			remoteInfo = KingfisherTests;
+		};
+		C25C4FB521D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B37667F1C478F940001443F;
+			remoteInfo = "KingfisherTests-tvOS";
+		};
+		C25C4FB721D353B900D375E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D10EC2311C3D632300A4211C;
+			remoteInfo = "KingfisherTests-macOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C221119621D5FD4E00008DCB /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C221119921D60B4B00008DCB /* StudentTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell1.swift; sourceTree = "<group>"; };
+		C2287A1121D6702D00C8708A /* StudentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsViewController.swift; sourceTree = "<group>"; };
 		C25C4F6B21D343E000D375E0 /* TableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25C4F6E21D343E000D375E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C25C4F7021D343E000D375E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +121,8 @@
 		C25C4F8A21D343E600D375E0 /* TableViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25C4F8E21D343E600D375E0 /* TableViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPracticeUITests.swift; sourceTree = "<group>"; };
 		C25C4F9021D343E600D375E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25C4F9F21D34E5500D375E0 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kingfisher.xcodeproj; path = Kingfisher/Kingfisher.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +153,7 @@
 		C25C4F6221D343E000D375E0 = {
 			isa = PBXGroup;
 			children = (
+				C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */,
 				C25C4F6D21D343E000D375E0 /* TableViewPractice */,
 				C25C4F8221D343E600D375E0 /* TableViewPracticeTests */,
 				C25C4F8D21D343E600D375E0 /* TableViewPracticeUITests */,
@@ -103,6 +180,9 @@
 				C25C4F7521D343E600D375E0 /* Assets.xcassets */,
 				C25C4F7721D343E600D375E0 /* LaunchScreen.storyboard */,
 				C25C4F7A21D343E600D375E0 /* Info.plist */,
+				C25C4F9F21D34E5500D375E0 /* StudentTableViewCell.swift */,
+				C221119921D60B4B00008DCB /* StudentTableViewCell1.swift */,
+				C2287A1121D6702D00C8708A /* StudentDetailsViewController.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -125,6 +205,20 @@
 			path = TableViewPracticeUITests;
 			sourceTree = "<group>";
 		};
+		C25C4FA221D353B900D375E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25C4FAC21D353B900D375E0 /* Kingfisher.framework */,
+				C25C4FAE21D353B900D375E0 /* Kingfisher.framework */,
+				C25C4FB021D353B900D375E0 /* Kingfisher.framework */,
+				C25C4FB221D353B900D375E0 /* Kingfisher.framework */,
+				C25C4FB421D353B900D375E0 /* KingfisherTests.xctest */,
+				C25C4FB621D353B900D375E0 /* KingfisherTests-tvOS.xctest */,
+				C25C4FB821D353B900D375E0 /* KingfisherTests-macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +229,12 @@
 				C25C4F6721D343E000D375E0 /* Sources */,
 				C25C4F6821D343E000D375E0 /* Frameworks */,
 				C25C4F6921D343E000D375E0 /* Resources */,
+				C221119621D5FD4E00008DCB /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C221118E21D5FD4C00008DCB /* PBXTargetDependency */,
 			);
 			name = TableViewPractice;
 			productName = TableViewPractice;
@@ -215,6 +311,12 @@
 			mainGroup = C25C4F6221D343E000D375E0;
 			productRefGroup = C25C4F6C21D343E000D375E0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C25C4FA221D353B900D375E0 /* Products */;
+					ProjectRef = C25C4FA121D353B900D375E0 /* Kingfisher.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C25C4F6A21D343E000D375E0 /* TableViewPractice */,
@@ -223,6 +325,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C25C4FAC21D353B900D375E0 /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = C25C4FAB21D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C25C4FAE21D353B900D375E0 /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = C25C4FAD21D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C25C4FB021D353B900D375E0 /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = C25C4FAF21D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C25C4FB221D353B900D375E0 /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = C25C4FB121D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C25C4FB421D353B900D375E0 /* KingfisherTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KingfisherTests.xctest;
+			remoteRef = C25C4FB321D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C25C4FB621D353B900D375E0 /* KingfisherTests-tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KingfisherTests-tvOS.xctest";
+			remoteRef = C25C4FB521D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C25C4FB821D353B900D375E0 /* KingfisherTests-macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KingfisherTests-macOS.xctest";
+			remoteRef = C25C4FB721D353B900D375E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C25C4F6921D343E000D375E0 /* Resources */ = {
@@ -257,7 +411,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C25C4F7121D343E000D375E0 /* ViewController.swift in Sources */,
+				C221119A21D60B4B00008DCB /* StudentTableViewCell1.swift in Sources */,
+				C2287A1221D6702D00C8708A /* StudentDetailsViewController.swift in Sources */,
 				C25C4F6F21D343E000D375E0 /* AppDelegate.swift in Sources */,
+				C25C4FA021D34E5500D375E0 /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +437,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C221118E21D5FD4C00008DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kingfisher-iOS";
+			targetProxy = C221118D21D5FD4C00008DCB /* PBXContainerItemProxy */;
+		};
 		C25C4F8121D343E600D375E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C25C4F6A21D343E000D375E0 /* TableViewPractice */;
